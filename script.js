@@ -107,3 +107,7 @@ document.addEventListener('keydown', (e) => {
 	}
 	else return;
 })
+
+// grab data from server 
+
+grabData();
