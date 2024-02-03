@@ -14,6 +14,11 @@
             "Happy": "images/placeholder3.png",
             "Thinking": "images/placeholder3.png",
             "Peeved": "images/placeholder3.png"
+        },
+        "Me": {
+            "Happy": "",
+            "Thinking": "",
+            "Peeved": ""
         }
     },
     "Scene1": {
@@ -35,9 +40,13 @@
                 "PageText": "block of text"
             },
             "Page3": {
-                "Character": "Kuromi",
+                "Character": "Me",
                 "Sprite": "Peeved",
-                "PageText": "block of text"
+                "PageText": "would you rather",
+                "Options": {
+                    "option a": "Page4",
+                    "obtion b": "Page6"
+                }
             },
             "Page4": {
                 "Character": "Melody",
@@ -66,7 +75,7 @@
             },
             "Page9": {
                 "Character": "Me",
-                "Sprite": "Restr",
+                "Sprite": "Thinking",
                 "PageText": " ",
                 "Options": {
                     "Finish?": "Page10",
