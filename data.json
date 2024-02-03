@@ -1,16 +1,16 @@
 {
     "Characters": {
-        "": {
+        "Kuromi": {
             "Happy": "images/placeholder1.png",
             "Thinking": "images/placeholder1.png",
             "Peeved": "images/placeholder1.png"
         },
-        "Kylie": {
+        "Melody": {
             "Happy": "images/placeholder2.png",
             "Thinking": "images/placeholder2.png",
             "Peeved": "images/placeholder2.png"
         },
-        "Anna": {
+        "Pompom": {
             "Happy": "images/placeholder3.png",
             "Thinking": "images/placeholder3.png",
             "Peeved": "images/placeholder3.png"
@@ -20,49 +20,49 @@
         "Background": "images/placeholderbg.jpeg",
         "PAGES": {
             "Page0": {
-                "Character": "Viola",
+                "Character": "Kuromi",
                 "Sprite": "Happy",
-                "PageText": "We're having a pop quiz today!"
+                "PageText": "block of text"
             },
             "Page1": {
-                "Character": "Viola",
+                "Character": "Pompom",
                 "Sprite": "Happy",
-                "PageText": "And just so you know, the questions were made for me by Miss Smith next door. "
+                "PageText": "block of text "
             },
             "Page2": {
-                "Character": "Kylie",
+                "Character": "Melody",
                 "Sprite": "Peeved",
-                "PageText": "Ms. Smith's quizzes are always harder than Viola's."
+                "PageText": "block of text"
             },
             "Page3": {
-                "Character": "Anna",
+                "Character": "Kuromi",
                 "Sprite": "Peeved",
-                "PageText": "Yeah..."
+                "PageText": "block of text"
             },
             "Page4": {
-                "Character": "Viola",
+                "Character": "Melody",
                 "Sprite": "Happy",
-                "PageText": "Good luck everyone! I'll be taking the quiz myself."
+                "PageText": "block of text"
             },
             "Page5": {
-                "Character": "Viola",
+                "Character": "Pompom",
                 "Sprite": "Thinking",
-                "PageText": "..."
+                "PageText": "block of text"
             },
             "Page6": {
-                "Character": "Viola",
+                "Character": "Melody",
                 "Sprite": "Peeved",
-                "PageText": "........."
+                "PageText": "block of text"
             },
             "Page7": {
-                "Character": "Anna",
+                "Character": "Pompom",
                 "Sprite": "Happy",
-                "PageText": "Hey, she's having trouble!"
+                "PageText": "block of text"
             },
             "Page8": {
-                "Character": "Kylie",
+                "Character": "Kuromi",
                 "Sprite": "Thinking",
-                "PageText": "Yikes..."
+                "PageText": "block of text"
             },
             "Page9": {
                 "Character": "Me",
