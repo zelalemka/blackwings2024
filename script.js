@@ -62,3 +62,22 @@ async function initialize(data) {
 	// I dont think I need this if i just import my images 
 	$mainbox.style.backgroundImage = "url(" + data.Scene1.Background + ")";
 }
+
+function handleOptions(data) {
+	$optionsbox.innerHTML = '';
+
+	if (data.Scene1.PAGES[currentPage].hasOwnProperty('Options')) {
+		var 0 = data.Scene1.PAGES[currentPage].Options;
+		var str = Object.keys(o).forEach(k => {
+			row.innerHTML = `${k}`
+			$optionsbox.appendChild(row);
+			row.addEventListener('click', () => {
+				currentPage = (o[k]);
+				pageNum = Object.keys(json.Scene1.PAGES).indexOf(currentPage);
+				initialize(json);
+				$optionsbox.innerHTML = "";
+			})
+		})
+	}
+}
+
