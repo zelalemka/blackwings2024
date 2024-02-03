@@ -71,7 +71,7 @@ async function initialize(data) {
 	typeWriter(data.Scene1.PAGES[currentPage].PageText)
 	// $textbox.innerText = data.Scene1.PAGES[pageNum][2]; //Uncomment this part for no typewriter effect 
 
-	$mainbox.backgroundImage.src = "url(' " + data.Scene1.Background + " ') ";
+	$mainbox.style.backgroundImage = "url(' " + data.Scene1.Background + " ') ";
 
 }
 
