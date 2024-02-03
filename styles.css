@@ -72,3 +72,13 @@ body {
 #spritebox img {
     max-width: 100%;
 }
+
+#namebox {
+    background: var(--text-background-color);
+    padding: 0.5rem;
+    border: 0.125vmin solid var(--border-color);
+
+    position: absolute;
+    bottom: 26.5%;
+    left: 1.5%
+}
