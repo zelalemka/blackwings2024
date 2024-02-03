@@ -20,7 +20,7 @@ const htmlData = insertHTML();
 document.getElementById('VisualNoverlEngine').insertAdjacentHTML('beforebegin',
 	htmlData);
 
-const vnData = 'data.json';
+const vnData = '/data.json';
 
 const $textbox = document.querySelector("#textbox p");
 const $optionsbox = document.querySelector('#optionsbox');

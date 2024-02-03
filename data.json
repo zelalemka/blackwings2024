@@ -17,7 +17,7 @@
         }
     },
     "Scene1": {
-        "Background": "images/placeholderbg.jpeg",
+        "Background": "https://i.pinimg.com/originals/d8/ce/14/d8ce149cace0bf4d0109e7e8e5b8e6e4.png",
         "PAGES": {
             "Page0": {
                 "Character": "Kuromi",
