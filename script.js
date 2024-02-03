@@ -67,7 +67,7 @@ function handleOptions(data) {
 	$optionsbox.innerHTML = '';
 
 	if (data.Scene1.PAGES[currentPage].hasOwnProperty('Options')) {
-		var 0 = data.Scene1.PAGES[currentPage].Options;
+		var o = data.Scene1.PAGES[currentPage].Options;
 		var str = Object.keys(o).forEach(k => {
 			row.innerHTML = `${k}`
 			$optionsbox.appendChild(row);
