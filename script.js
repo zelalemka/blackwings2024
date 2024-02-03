@@ -81,3 +81,29 @@ function handleOptions(data) {
 	}
 }
 
+function checkPage(data) {
+	if (data.Scene1.PAGES[currentPage].hasOwnProperty('Options'))
+		return false;
+	if (data.Scene1.PAGES[currentPage].hasOwnProperty('NextPage')) {
+		if (data.Scene1.PAGES[currentPage].NextPage == "End")
+			return false;
+	}
+	return true;
+}
+
+document.addEventListener('keydown', (e) => {
+	if (!json) return;
+	if (e.key == "ArrowRight" && checkPage(json)) {
+		if (json.Scene1.PAGES[currentPage].hasOwnProperty('NextPage')) {
+			currentPage = json.Scene1.PAGES[currentPage].nextPage;
+		}
+		else {
+			pageNum++;
+			currentPage = Object.keys(json.Scene1.PAGES)[pageNum];
+		}
+
+		initialize(json);
+		handleOptions(json);
+	}
+	else return;
+})
