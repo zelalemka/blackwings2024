@@ -65,7 +65,7 @@ button:hover {
 
 #mainbox {
     /*Size of Main Container*/
-    width: 90vmin;
+    width: 105vmin;
     height: 70vmin;
 
     /*Places container in the center of the screen*/
@@ -95,17 +95,20 @@ button:hover {
     height: 20%;
     padding: 0.5rem;
 
-    /* Makes text scrollable
+    /* Makes text scrollable */
     overflow: auto;
-    word-break: break-word; */
+    word-break: break-word;
 
     /*Positioning in container*/
+    display: flexbox;
+    align-items: center;
     margin: auto;
     position: absolute;
     bottom: 2%;
     left: 50%;
     transform: translate(-50%, 0);
     box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3);
+    overflow-wrap: break-word;
 }
 
 

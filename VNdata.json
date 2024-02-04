@@ -25,19 +25,27 @@
         "Background": "images/bgcolor.png",
         "PAGES": {
             "Page0": {
-                "Character": "Kuromi",
+                "Character": "Me",
                 "Sprite": "Happy",
-                "PageText": "block of text"
+                "PageText": "Greetings, Future Scholar🎓🌟Trying to prep for your first year? Press the right arrow to start"
             },
             "Page1": {
-                "Character": "Pompom",
+                "Character": "Me",
                 "Sprite": "Happy",
-                "PageText": "block of text "
+                "PageText": "Aren't you a fast learner! Your academic journey kicks off this week, and the choices you make impact your year. Ready for the challenge?",
+                "Options": {
+                    "YES LETS GO": "Page3",
+                    "uhhh maybe not": "Page2"
+                }
             },
             "Page2": {
-                "Character": "Melody",
-                "Sprite": "Peeved",
-                "PageText": "block of text"
+                "Character": "Me",
+                "Sprite": "Happy",
+                "PageText": "Have more faith, you'll be fine",
+                "Options": {
+                    "fine let's go": "Page3",
+                    "i guess": "Page3"
+                }
             },
             "Page3": {
                 "Character": "Me",
@@ -49,27 +57,27 @@
                 }
             },
             "Page4": {
-                "Character": "Melody",
+                "Character": "Me",
                 "Sprite": "Happy",
                 "PageText": "block of text"
             },
             "Page5": {
-                "Character": "Pompom",
+                "Character": "Me",
                 "Sprite": "Thinking",
                 "PageText": "block of text"
             },
             "Page6": {
-                "Character": "Melody",
+                "Character": "Me",
                 "Sprite": "Peeved",
                 "PageText": "block of text"
             },
             "Page7": {
-                "Character": "Pompom",
+                "Character": "Me",
                 "Sprite": "Happy",
                 "PageText": "block of text"
             },
             "Page8": {
-                "Character": "Kuromi",
+                "Character": "Me",
                 "Sprite": "Thinking",
                 "PageText": "block of text"
             },
