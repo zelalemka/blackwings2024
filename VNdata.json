@@ -1,42 +1,34 @@
 {
     "Characters": {
-        "Kuromi": {
-            "Happy": "images/placeholder1.png",
-            "Thinking": "images/placeholder1.png",
-            "Peeved": "images/placeholder1.png"
+        "Kristin": {
+            "v1": "images/kristin1.png",
+            "v2": "images/kristin2.png"
         },
-        "Melody": {
-            "Happy": "images/placeholder2.png",
-            "Thinking": "images/placeholder2.png",
-            "Peeved": "images/placeholder2.png"
-        },
-        "Pompom": {
-            "Happy": "images/placeholder3.png",
-            "Thinking": "images/placeholder3.png",
-            "Peeved": "images/placeholder3.png"
+        "Asma": {
+            "v1": "images/asma1.png",
+            "v2": "images/asma2.png"
         },
         "Me": {
-            "Happy": "",
-            "Thinking": "",
-            "Peeved": ""
+            "v1": "",
+            "v2": ""
         }
     },
     "Scene1": {
         "Background": "images/bgcolor.png",
         "PAGES": {
             "Page0": {
-                "Character": "Me",
-                "Sprite": "Happy",
+                "Character": "Kristin",
+                "Sprite": "v1",
                 "PageText": "Welcome to UniNav - the University Simulator! Press the right arrow key to get started ->"
             },
             "Page1": {
-                "Character": "Me",
-                "Sprite": "Peeved",
-                "PageText": "Greetings, Future Scholar! 🎓🌟\n\nCongrats! University here we come! Navigate the ups and downs of college life. Every choice you make shapes your academic journey and personal growth."
+                "Character": "Asma",
+                "Sprite": "v2",
+                "PageText": "Greetings, Future Scholar! 🎓🌟 Congrats! University here we come! Navigate the ups and downs of college life. Every choice you make shapes your academic journey and personal growth."
             },
             "Page2": {
                 "Character": "Me",
-                "Sprite": "",
+                "Sprite": "v1",
                 "PageText": "Freshman, your academic adventure kicks off this week, and the choices you make now will shape your academic year. Ready for the challenges of your very first week? 👀",
                 "Options": {
                     "Yes": "Page3",
@@ -54,16 +46,16 @@
                 }
             },
             "Page4": {
-                "Character": "Me",
-                "Sprite": "",
+                "Character": "Kristin",
+                "Sprite": "v2",
                 "PageText": "Hmmmm, feeling a little lazy? Maybe overwhelmed? That’s totally okay! Go and do something you love and come back. 😉",
                 "Options": {
                     "I’m more energized now, let’s go to school!": "Page3"
                 }
             },
             "Page5": {
-                "Character": "Me",
-                "Sprite": "",
+                "Character": "Asma",
+                "Sprite": "v1",
                 "PageText": "Quizzing the professor, your academic curiosity shines so brightly that it catches your seatmate's attention. Intrigued, they invite you to their club's General Interest Meeting (aka GIM). Ready to dive into new connections? 😌",
                 "Options": {
                     "Yes": "Page20",
@@ -71,8 +63,8 @@
                 }
             },
             "Page6": {
-                "Character": "Me",
-                "Sprite": "",
+                "Character": "Kristin",
+                "Sprite": "v2",
                 "PageText": "Your TikTok break catches attention, even your professor's (Whoops). On the bright side, a seatmate invites you to their club meeting. Ready for this social twist? 🫢",
                 "Options": {
                     "Yes": "Page20",
@@ -80,8 +72,8 @@
                 }
             },
             "Page22": {
-                "Character": "Me",
-                "Sprite": "",
+                "Character": "Asma",
+                "Sprite": "v1",
                 "PageText": "We’re not feeling like meeting new people? That’s okay, but try to get out of your comfort zone and put yourself out there every now and then! For now, does a self-care session sound tempting? 💆‍♀️",
                 "Options": {
                     "Yes": "Page11",
@@ -90,7 +82,7 @@
             },
             "Page20": {
                 "Character": "Me",
-                "Sprite": "",
+                "Sprite": "v1",
                 "PageText": "You find yourself at the General Interest Meeting (GIM) for the \"Creative Arts\" club. The room is buzzing with artistic energy, and club leaders are presenting various projects. What will you do?",
                 "Options": {
                     "Brainstorm, suggest wacky events, and forge connections 😎": "Page6",
@@ -99,8 +91,8 @@
                 }
             },
             "Page21": {
-                "Character": "Me",
-                "Sprite": "",
+                "Character": "Kristin",
+                "Sprite": "v1",
                 "PageText": "Opting to mingle and make new friends, you paint vibrant social connections. Now, as a busy college student juggling classes and club activities, the day is full. After the social buzz, how will you navigate time for assignments? ⏰🎨",
                 "Options": {
                     "time management is a piece of cake 😌": "Page25"
@@ -108,7 +100,7 @@
             },
             "Page7": {
                 "Character": "Me",
-                "Sprite": "",
+                "Sprite": "v1",
                 "PageText": "You have three assignments due in just two days, along with a looming group project submission next week. The workload is intense, and deadlines are closing in. What's your strategy?",
                 "Options": {
                     "Prioritize assignments, group up for the project, let Google calendar be my digital sidekick 📆": "Page8",
@@ -117,8 +109,8 @@
                 }
             },
             "Page8": {
-                "Character": "Me",
-                "Sprite": "",
+                "Character": "Asma",
+                "Sprite": "v2",
                 "PageText": "Opting for prioritization and group collaboration, your strategy is set. Freshman year flew by, and now, the next adventure awaits – time to declare your major! 💁🏽‍♀️",
                 "Options": {
                     "Let’s do it!": "Page25"
@@ -135,8 +127,8 @@
                 }
             },
             "Page10": {
-                "Character": "Me",
-                "Sprite": "",
+                "Character": "Kristin",
+                "Sprite": "v1",
                 "PageText": "You've successfully found the textbook online without denting your wallet—bravo! Freshman year flew by, and now, the next adventure awaits – time to declare your major! 💁🏽‍♀️",
                 "Options": {
                     "Let’s do it!": "Page25"
@@ -144,7 +136,7 @@
             },
             "Page11": {
                 "Character": "Me",
-                "Sprite": "",
+                "Sprite": "v1",
                 "PageText": "After a busy day, you find yourself exhausted. Time for a self-care session! What's your go-to move?",
                 "Options": {
                     "Head outdoors for a brisk walk 🍃": "Page12",
@@ -153,13 +145,13 @@
                 }
             },
             "Page12": {
-                "Character": "Me",
-                "Sprite": "",
+                "Character": "Kristin",
+                "Sprite": "v1",
                 "PageText": "Stepping outside for a brisk walk, you rejuvenate your mind. College life is becoming familiar, and you crave more. Now, hungry for knowledge, you're eager to delve into on-campus research. How will you navigate this academic pursuit? 👩‍🔬"
             },
             "Page13": {
                 "Character": "Me",
-                "Sprite": "",
+                "Sprite": "v1",
                 "PageText": "New to the world of research, you feel lost, yet your thirst for knowledge is unyielding. What's your next move?",
                 "Options": {
                     "Beg professors to unlock the secrets of their labs 🥺": "Page14",
@@ -168,40 +160,40 @@
                 }
             },
             "Page29": {
-                "Character": "Me",
-                "Sprite": "",
+                "Character": "Asma",
+                "Sprite": "v2",
                 "PageText": "Well done! You landed a research assistant position with you favorite professor! So far, it looks like you don’t give yourself enough breaks. Remember to prioritize Health and access campus health services when needed! 🏥",
                 "Options": {
                     "Will do! 💪🏻": "Page25"
                 }
             },
             "Page24": {
-                "Character": "Me",
-                "Sprite": "",
+                "Character": "Kristin",
+                "Sprite": "v2",
                 "PageText": "Reconnecting with your FYP exacerbates screen fatigue. Consider a screen break next time. College life is becoming familiar, but it seems like you’re still having a hard time connecting with your peers. Engaging in campus events and activities with friends might be a good start! 💁🏽‍♀️ ",
                 "Options": {
                     "Will do! 💪🏻": "Page25"
                 }
             },
             "Page27": {
-                "Character": "Me",
-                "Sprite": "",
+                "Character": "Kristin",
+                "Sprite": "v2",
                 "PageText": "Insufficient breaks lead to burnout! Use tools like the Pomodoro technique to maintain energy. College life is becoming familiar, but it seems like you’re still having a hard time connecting with your peers. Engaging in campus events and activities with friends might be a good start! 💁🏽‍♀️",
                 "Options": {
                     "Will do! 💪🏻": "Page25"
                 }
             },
             "Page14": {
-                "Character": "Me",
-                "Sprite": "",
+                "Character": "Kristin",
+                "Sprite": "v1",
                 "PageText": "First semester ended sans a research spot; professors missed your capabilities. Next time, show off your relevant skills! So far, it looks like you don’t give yourself enough breaks. Remember to prioritize Health and access campus health services when needed! 🏥",
                 "Options": {
                     "I’ll take more breaks and stay healthy!": "Page25"
                 }
             },
             "Page25": {
-                "Character": "Me",
-                "Sprite": "",
+                "Character": "Asma",
+                "Sprite": "v1",
                 "PageText": "Giving up? Not on our watch! You can do it! Maybe you just need a little distraction? How about checking off one more task from your to-do list and filling out your financial forms?",
                 "Options": {
                     "Sounds like a plan!": "Page15"
@@ -218,24 +210,24 @@
                 }
             },
             "Page16": {
-                "Character": "Me",
-                "Sprite": "",
+                "Character": "Kristin",
+                "Sprite": "v1",
                 "PageText": "Smart move! Your financial aid advisor assisted with forms and clued you in on continuing student scholarships!  Almost forgot! What do you want to study? If you’re eager to learn, anything is possible!",
                 "Options": {
                     "Oh boy, how do I decide? 🤨": "Page17"
                 }
             },
             "Page30": {
-                "Character": "Me",
-                "Sprite": "",
+                "Character": "Asma",
+                "Sprite": "v2",
                 "PageText": "A bit of a delay, but you conquered the forms! Pro tip: connect with your financial aid advisor for a quicker process.  Almost forgot! What do you want to study? If you’re eager to learn, anything is possible!",
                 "Options": {
                     "Oh boy, how do I decide? 🤨": "Page17"
                 }
             },
             "Page31": {
-                "Character": "Me",
-                "Sprite": "",
+                "Character": "Kristin",
+                "Sprite": "v2",
                 "PageText": "Oops! Missed the deadline, funds for next year uncertain. Lesson learned. Almost forgot! What do you want to study? If you’re eager to learn, anything is possible!",
                 "Options": {
                     "Oh boy, how do I decide? 🤨": "Page17"
@@ -252,37 +244,46 @@
                 }
             },
             "Page18": {
-                "Character": "Me",
-                "Sprite": "",
+                "Character": "Kristin",
+                "Sprite": "v1",
                 "PageText": "Well done! Website exploration and your advisor's guidance filled in the blanks. Congrats on reaching this milestone! It seems like you’re building a supportive network of people. You might want to check out our suggestions for effective budgeting and time management! You killed this simulation!!",
                 "Options": {
                     "WooHoo!! 🫵🏻": "Page19"
                 }
             },
             "Page32": {
-                "Character": "Me",
-                "Sprite": "",
+                "Character": "Asma",
+                "Sprite": "v1",
                 "PageText": "Navigating the major declaration quest with insights from wise seniors, you gain newfound clarity. Congrats on reaching this milestone! It seems like you’re building a supportive network of people. You might want to check out our suggestions for effective budgeting and time management! You killed this simulation!!",
                 "Options": {
                     "WooHoo!! 🫵🏻": "Page19"
                 }
             },
             "Page33": {
-                "Character": "Me",
-                "Sprite": "",
+                "Character": "Kristin",
+                "Sprite": "v2",
                 "PageText": "In the panic abyss, uncertainty becomes your companion, but fear not! Use resources like your academic advisor and peers. Get some guidance on how to seek academic Help and connect with your professors! You killed this simulation!",
                 "Options": {
                     "WooHoo!! 🫵🏻": "Page19"
                 }
             },
             "Page19": {
-                "Character": "Me",
-                "Sprite": "",
+                "Character": "Kristin",
+                "Sprite": "v1",
                 "PageText": "Congratulations on conquering the simulation! As you embark on your college journey, here is our advice as well as resources to help you throughout your college journey:"
             },
-            "Page26": {
+            "Page34": {
                 "Character": "Me",
-                "Sprite": "",
+                "Sprite": "v1",
+                "PageText": "Replay?",
+                "Options": {
+                    "Restart": "Page0",
+                    "Finish": "Page26"
+                }
+            },
+            "Page26": {
+                "Character": "Asma",
+                "Sprite": "v1",
                 "PageText": "Your success story awaits—thrive, learn, and enjoy the journey! 🚀🎓",
                 "NextPage": "End"
             }
