@@ -32,20 +32,12 @@
             "Page1": {
                 "Character": "Me",
                 "Sprite": "Happy",
-                "PageText": "Aren't you a fast learner! Your academic journey kicks off this week, and the choices you make impact your year. Ready for the challenge?",
-                "Options": {
-                    "YES LETS GO": "Page3",
-                    "uhhh maybe not": "Page2"
-                }
+                "PageText": "block of text "
             },
             "Page2": {
                 "Character": "Me",
-                "Sprite": "Happy",
-                "PageText": "Have more faith, you'll be fine",
-                "Options": {
-                    "fine let's go": "Page3",
-                    "i guess": "Page3"
-                }
+                "Sprite": "Peeved",
+                "PageText": "block of text"
             },
             "Page3": {
                 "Character": "Me",
@@ -64,7 +56,11 @@
             "Page5": {
                 "Character": "Me",
                 "Sprite": "Thinking",
-                "PageText": "block of text"
+                "PageText": "block of text",
+                "Options": {
+                    "a": "Page8",
+                    "B": "Page7"
+                }
             },
             "Page6": {
                 "Character": "Me",
