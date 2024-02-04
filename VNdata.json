@@ -58,7 +58,7 @@
                 "Sprite": "",
                 "PageText": "Hmmmm, feeling a little lazy? Maybe overwhelmed? That’s totally okay! Go and do something you love and come back. 😉",
                 "Options": {
-                    "I’m more energized now, let’s go to school!": "Page5"
+                    "I’m more energized now, let’s go to school!": "Page3"
                 }
             },
             "Page5": {
@@ -84,7 +84,7 @@
                 "Sprite": "",
                 "PageText": "We’re not feeling like meeting new people? That’s okay, but try to get out of your comfort zone and put yourself out there every now and then! For now, does a self-care session sound tempting? 💆‍♀️",
                 "Options": {
-                    "Yes": "Page23",
+                    "Yes": "Page11",
                     "No": "Page25"
                 }
             },
@@ -147,7 +147,7 @@
                 "Sprite": "",
                 "PageText": "After a busy day, you find yourself exhausted. Time for a self-care session! What's your go-to move?",
                 "Options": {
-                    "Head outdoors for a brisk walk 🍃": "Page24",
+                    "Head outdoors for a brisk walk 🍃": "Page12",
                     "Have a little reunion with your FYP 👀": "Page24",
                     "Opt for a caffeine boost and power through more work. Self-care who? ☕️": "Page24"
                 }
@@ -163,8 +163,32 @@
                 "PageText": "New to the world of research, you feel lost, yet your thirst for knowledge is unyielding. What's your next move?",
                 "Options": {
                     "Beg professors to unlock the secrets of their labs 🥺": "Page14",
-                    "Explore ongoing projects, craft targeted emails to professors 👩‍💻": "Page14",
+                    "Explore ongoing projects, craft targeted emails to professors 👩‍💻": "Page29",
                     "Consider giving up; after all, you're just an undergraduate 😑": "Page14"
+                }
+            },
+            "Page29": {
+                "Character": "Me",
+                "Sprite": "",
+                "PageText": "Well done! You landed a research assistant position with you favorite professor! So far, it looks like you don’t give yourself enough breaks. Remember to prioritize Health and access campus health services when needed! 🏥",
+                "Options": {
+                    "Will do! 💪🏻": "Page25"
+                }
+            },
+            "Page24": {
+                "Character": "Me",
+                "Sprite": "",
+                "PageText": "Reconnecting with your FYP exacerbates screen fatigue. Consider a screen break next time. College life is becoming familiar, but it seems like you’re still having a hard time connecting with your peers. Engaging in campus events and activities with friends might be a good start! 💁🏽‍♀️ ",
+                "Options": {
+                    "Will do! 💪🏻": "Page25"
+                }
+            },
+            "Page27": {
+                "Character": "Me",
+                "Sprite": "",
+                "PageText": "Insufficient breaks lead to burnout! Use tools like the Pomodoro technique to maintain energy. College life is becoming familiar, but it seems like you’re still having a hard time connecting with your peers. Engaging in campus events and activities with friends might be a good start! 💁🏽‍♀️",
+                "Options": {
+                    "Will do! 💪🏻": "Page25"
                 }
             },
             "Page14": {
@@ -189,16 +213,32 @@
                 "PageText": "The daunting task of deciphering financial aid forms and scholarships is upon you. In the labyrinth of paperwork, you feel lost. How will you navigate this maze?",
                 "Options": {
                     "Enlist the help of a financial aid advisor 🤝": "Page16",
-                    "Embark on a solo quest, navigating the forms and scholarships online 🌐": "Page16",
-                    "Consider skipping the hassle for now and go watch cat videos 🐱": "Page16"
+                    "Embark on a solo quest, navigating the forms and scholarships online 🌐": "Page30",
+                    "Consider skipping the hassle for now and go watch cat videos 🐱": "Page31"
                 }
             },
             "Page16": {
                 "Character": "Me",
                 "Sprite": "",
-                "PageText": "Smart move! Your financial aid advisor assisted with forms and clued you in on continuing student scholarships! Now that you’ve distracted yourself a little bit, don’t forget to get involved in research and gain new experiences! If you’re eager to learn, anything is possible!",
+                "PageText": "Smart move! Your financial aid advisor assisted with forms and clued you in on continuing student scholarships!  Almost forgot! What do you want to study? If you’re eager to learn, anything is possible!",
                 "Options": {
-                    "I’ll stay curious 🤨": "Page25"
+                    "Oh boy, how do I decide? 🤨": "Page17"
+                }
+            },
+            "Page30": {
+                "Character": "Me",
+                "Sprite": "",
+                "PageText": "A bit of a delay, but you conquered the forms! Pro tip: connect with your financial aid advisor for a quicker process.  Almost forgot! What do you want to study? If you’re eager to learn, anything is possible!",
+                "Options": {
+                    "Oh boy, how do I decide? 🤨": "Page17"
+                }
+            },
+            "Page31": {
+                "Character": "Me",
+                "Sprite": "",
+                "PageText": "Oops! Missed the deadline, funds for next year uncertain. Lesson learned. Almost forgot! What do you want to study? If you’re eager to learn, anything is possible!",
+                "Options": {
+                    "Oh boy, how do I decide? 🤨": "Page17"
                 }
             },
             "Page17": {
@@ -207,16 +247,32 @@
                 "PageText": "The major declaration process looms ahead, and the path seems unclear. How will you navigate this academic crossroads?",
                 "Options": {
                     "Navigate the department website and consult with your academic advisor 🕵️‍♂️": "Page18",
-                    "Seek wisdom from senior sages who've conquered the major declaration quest ✨": "Page18",
-                    "Panic because, who knows what career to pursue anyway? 😱": "Page18"
+                    "Seek wisdom from senior sages who've conquered the major declaration quest ✨": "Page32",
+                    "Panic because, who knows what career to pursue anyway? 😱": "Page33"
                 }
             },
             "Page18": {
                 "Character": "Me",
                 "Sprite": "",
-                "PageText": "Well done! Website exploration and your advisor's guidance filled in the blanks. Congrats on reaching this milestone! It seems like you’re building a supportive network of people. You might want to check out our suggestions for effective budgeting and time management! You’re killing it!",
+                "PageText": "Well done! Website exploration and your advisor's guidance filled in the blanks. Congrats on reaching this milestone! It seems like you’re building a supportive network of people. You might want to check out our suggestions for effective budgeting and time management! You killed this simulation!!",
                 "Options": {
-                    "This is just the beginning! 🫵🏻": "Page25"
+                    "WooHoo!! 🫵🏻": "Page19"
+                }
+            },
+            "Page32": {
+                "Character": "Me",
+                "Sprite": "",
+                "PageText": "Navigating the major declaration quest with insights from wise seniors, you gain newfound clarity. Congrats on reaching this milestone! It seems like you’re building a supportive network of people. You might want to check out our suggestions for effective budgeting and time management! You killed this simulation!!",
+                "Options": {
+                    "WooHoo!! 🫵🏻": "Page19"
+                }
+            },
+            "Page33": {
+                "Character": "Me",
+                "Sprite": "",
+                "PageText": "In the panic abyss, uncertainty becomes your companion, but fear not! Use resources like your academic advisor and peers. Get some guidance on how to seek academic Help and connect with your professors! You killed this simulation!",
+                "Options": {
+                    "WooHoo!! 🫵🏻": "Page19"
                 }
             },
             "Page19": {
