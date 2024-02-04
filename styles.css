@@ -21,6 +21,48 @@ body {
     background-color: var(--background-color);
 }
 
+h1 {
+    position: absolute;
+    font-size: 56px;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.intro {
+    position: absolute;
+    text-align: center;
+    font-size: 32px;
+    top: 27%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+
+button {
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 40px;
+    padding: 0.4em;
+    margin: 0.3em 0;
+    text-align: center;
+    border: 1vmin solid var(--border-color);
+    box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3);
+    ;
+    background: var(--text-background-color);
+    color: var(--text-color);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+button:hover {
+    border: 0.5vmin solid var(--border-color);
+    background: var(--text-color);
+    color: var(--text-background-color);
+    cursor: pointer;
+}
+
 #mainbox {
     /*Size of Main Container*/
     width: 90vmin;
