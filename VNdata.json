@@ -22,7 +22,7 @@
         }
     },
     "Scene1": {
-        "Background": "images/testbg.png",
+        "Background": "images/bgcolor.png",
         "PAGES": {
             "Page0": {
                 "Character": "Kuromi",

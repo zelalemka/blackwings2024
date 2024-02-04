@@ -4,6 +4,8 @@
     --text-color: #722410;
     --text-background-color: #F1ECE7;
     --border-color: #722410;
+    --accent-color: #5290C9;
+    --background-color: #A8D1D1;
 }
 
 * {
@@ -16,6 +18,7 @@ body {
     font-family: 'Pixelify Sans', sans-serif;
     font-size: 22px;
     color: var(--text-color);
+    background-color: var(--background-color);
 }
 
 #mainbox {
@@ -34,6 +37,7 @@ body {
 
     /*Sets a border*/
     border: 0.5vmin solid var(--border-color);
+    box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3);
 }
 
 #textbox {
@@ -59,6 +63,7 @@ body {
     bottom: 2%;
     left: 50%;
     transform: translate(-50%, 0);
+    box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3);
 }
 
 
@@ -68,7 +73,7 @@ body {
 }
 
 #optionsbox>div:hover {
-    color: red;
+    color: var(--accent-color);
     cursor: pointer;
 }
 
@@ -111,4 +116,5 @@ body {
     margin-bottom: 0.5rem;
     bottom: 26.5%;
     left: 3%;
+    box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.3);
 }
