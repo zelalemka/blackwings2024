@@ -37,7 +37,7 @@
             },
             "Page3": {
                 "Character": "Me",
-                "Sprite": "",
+                "Sprite": "v1",
                 "PageText": "You're in your very first college lecture, a mix of excitement and nervous energy in the air. The professor is discussing a complex topic, and your mind starts to wander. What do you do?",
                 "Options": {
                     "Quiz the professor on the mysteries of this lecture 🤔": "Page5",
@@ -118,7 +118,7 @@
             },
             "Page9": {
                 "Character": "Me",
-                "Sprite": "",
+                "Sprite": "v1",
                 "PageText": "You found the details of your required textbook on the course syllabus-yay! Now, this academic plot twist requires swift action. What's your move?",
                 "Options": {
                     "Budget wisely, find affordable textbooks online, make a strategic purchase 💵": "Page10",
@@ -201,7 +201,7 @@
             },
             "Page15": {
                 "Character": "Me",
-                "Sprite": "",
+                "Sprite": "v1",
                 "PageText": "The daunting task of deciphering financial aid forms and scholarships is upon you. In the labyrinth of paperwork, you feel lost. How will you navigate this maze?",
                 "Options": {
                     "Enlist the help of a financial aid advisor 🤝": "Page16",
@@ -235,7 +235,7 @@
             },
             "Page17": {
                 "Character": "Me",
-                "Sprite": "",
+                "Sprite": "v1",
                 "PageText": "The major declaration process looms ahead, and the path seems unclear. How will you navigate this academic crossroads?",
                 "Options": {
                     "Navigate the department website and consult with your academic advisor 🕵️‍♂️": "Page18",

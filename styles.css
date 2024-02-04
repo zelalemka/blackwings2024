@@ -65,7 +65,7 @@ button:hover {
 
 #mainbox {
     /*Size of Main Container*/
-    width: 105vmin;
+    width: 120vmin;
     height: 70vmin;
 
     /*Places container in the center of the screen*/
@@ -91,7 +91,7 @@ button:hover {
     background: var(--text-background-color);
 
     /*Sets size and padding*/
-    width: 90%;
+    width: 95%;
     height: 30%;
     padding: 0.5rem;
 
