@@ -32,17 +32,26 @@
             "Page1": {
                 "Character": "Me",
                 "Sprite": "Happy",
-                "PageText": "block of text "
+                "PageText": "You're in your very first college lecture, a mix of excitement and nervous energy in the air. The professor is discussing a complex topic, and your mind starts to wander. What do you do?                ",
+                "Options": {
+                    "Quiz the professor on the mysteries of this lecture 🤔": "Page2",
+                    "Take a short TikTok break 🤩": "Page4",
+                    "Stare at the ceiling 🙄": "Page5"
+                }
             },
             "Page2": {
                 "Character": "Me",
-                "Sprite": "Peeved",
-                "PageText": "block of text"
+                "Sprite": "Happy",
+                "PageText": "option text",
+                "Options": {
+                    "option a": "Page3",
+                    "obtion b": "Page6"
+                }
             },
             "Page3": {
                 "Character": "Me",
-                "Sprite": "Peeved",
-                "PageText": "would you rather",
+                "Sprite": "Happy",
+                "PageText": "option text",
                 "Options": {
                     "option a": "Page4",
                     "obtion b": "Page6"
@@ -55,11 +64,11 @@
             },
             "Page5": {
                 "Character": "Me",
-                "Sprite": "Thinking",
-                "PageText": "block of text",
+                "Sprite": "Happy",
+                "PageText": "option text",
                 "Options": {
-                    "a": "Page8",
-                    "B": "Page7"
+                    "option a": "Page4",
+                    "obtion b": "Page6"
                 }
             },
             "Page6": {
@@ -70,7 +79,11 @@
             "Page7": {
                 "Character": "Me",
                 "Sprite": "Happy",
-                "PageText": "block of text"
+                "PageText": "option text",
+                "Options": {
+                    "option a": "Page4",
+                    "obtion b": "Page6"
+                }
             },
             "Page8": {
                 "Character": "Me",
@@ -79,14 +92,159 @@
             },
             "Page9": {
                 "Character": "Me",
-                "Sprite": "Thinking",
-                "PageText": " ",
+                "Sprite": "Happy",
+                "PageText": "option text",
                 "Options": {
-                    "Finish?": "Page10",
-                    "Restart?": "Page0"
+                    "option a": "Page4",
+                    "obtion b": "Page6"
                 }
             },
             "Page10": {
+                "Character": "Me",
+                "Sprite": "Peeved",
+                "PageText": "not option text "
+            },
+            "Page11": {
+                "Character": "Me",
+                "Sprite": "Happy",
+                "PageText": "option text",
+                "Options": {
+                    "option a": "Page4",
+                    "obtion b": "Page6"
+                }
+            },
+            "Page12": {
+                "Character": "Me",
+                "Sprite": "Peeved",
+                "PageText": "not option text "
+            },
+            "Page13": {
+                "Character": "Me",
+                "Sprite": "Happy",
+                "PageText": "option text",
+                "Options": {
+                    "option a": "Page4",
+                    "obtion b": "Page6"
+                }
+            },
+            "Page14": {
+                "Character": "Me",
+                "Sprite": "Peeved",
+                "PageText": "not option text "
+            },
+            "Page15": {
+                "Character": "Me",
+                "Sprite": "Happy",
+                "PageText": "option text",
+                "Options": {
+                    "option a": "Page4",
+                    "obtion b": "Page6"
+                }
+            },
+            "Page16": {
+                "Character": "Me",
+                "Sprite": "Peeved",
+                "PageText": "not option text "
+            },
+            "Page17": {
+                "Character": "Me",
+                "Sprite": "Happy",
+                "PageText": "option text",
+                "Options": {
+                    "option a": "Page4",
+                    "obtion b": "Page6"
+                }
+            },
+            "Page18": {
+                "Character": "Me",
+                "Sprite": "Peeved",
+                "PageText": "not option text "
+            },
+            "Page19": {
+                "Character": "Me",
+                "Sprite": "Happy",
+                "PageText": "option text",
+                "Options": {
+                    "option a": "Page4",
+                    "obtion b": "Page6"
+                }
+            },
+            "Page20": {
+                "Character": "Me",
+                "Sprite": "Peeved",
+                "PageText": "not option text "
+            },
+            "Page21": {
+                "Character": "Me",
+                "Sprite": "Happy",
+                "PageText": "option text",
+                "Options": {
+                    "option a": "Page4",
+                    "obtion b": "Page6"
+                }
+            },
+            "Page22": {
+                "Character": "Me",
+                "Sprite": "Peeved",
+                "PageText": "not option text "
+            },
+            "Page23": {
+                "Character": "Me",
+                "Sprite": "Happy",
+                "PageText": "option text",
+                "Options": {
+                    "option a": "Page4",
+                    "obtion b": "Page6"
+                }
+            },
+            "Page24": {
+                "Character": "Me",
+                "Sprite": "Peeved",
+                "PageText": "not option text "
+            },
+            "Page25": {
+                "Character": "Me",
+                "Sprite": "Happy",
+                "PageText": "option text",
+                "Options": {
+                    "option a": "Page4",
+                    "obtion b": "Page6"
+                }
+            },
+            "Page26": {
+                "Character": "Me",
+                "Sprite": "Peeved",
+                "PageText": "not option text "
+            },
+            "Page27": {
+                "Character": "Me",
+                "Sprite": "Happy",
+                "PageText": "option text",
+                "Options": {
+                    "option a": "Page4",
+                    "obtion b": "Page6"
+                }
+            },
+            "Page28": {
+                "Character": "Me",
+                "Sprite": "Peeved",
+                "PageText": "not option text "
+            },
+            "Page29": {
+                "Character": "Me",
+                "Sprite": "Happy",
+                "PageText": "option text",
+                "Options": {
+                    "option a": "Page4",
+                    "obtion b": "Page6"
+                }
+            },
+            "Page30": {
+                "Character": "Me",
+                "Sprite": "Peeved",
+                "PageText": "not option text "
+            },
+            "Page31": {
                 "Character": "Me",
                 "Sprite": "Thinking",
                 "PageText": "Thank you for reading!",

@@ -76,28 +76,37 @@ function start() {
 	}
 
 	function handleOptions(data) {
-
-		//Cleans it out
+		// Cleans it out
 		$optionsbox.innerHTML = "";
 
-		if (data.Scene1.PAGES[currentPage].hasOwnProperty('Options')) {
-			var o = data.Scene1.PAGES[currentPage].Options;
-			var str = Object.keys(o).forEach(k => {
+		const currentPageData = data.Scene1.PAGES[currentPage];
+
+		if (currentPageData?.hasOwnProperty('Options')) {
+			const currentOptions = currentPageData.Options;
+
+			Object.keys(currentOptions).forEach(key => {
 				const row = document.createElement('div');
-				row.innerHTML = `${k}`
+				row.textContent = key;
 				$optionsbox.appendChild(row);
+
 				row.addEventListener('click', () => {
-					currentPage = (o[k]);
-					pageNum = Object.keys(json.Scene1.PAGES).indexOf(currentPage);
-					initialize(json);
-					$optionsbox.innerHTML = "";
-				})
-
-			})
+					goToPage(currentOptions[key]);
+				});
+			});
 		}
-
-
 	}
+
+	function goToPage(pageKey) {
+		currentPage = pageKey;
+		pageNum = Object.keys(json.Scene1.PAGES).indexOf(currentPage);
+		initialize(json);
+
+		// Handle options after the page transition
+		handleOptions(json);
+	}
+
+
+
 
 	//Typewriter Effect 
 	function typeWriter(txt, i) {
