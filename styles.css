@@ -92,7 +92,7 @@ button:hover {
 
     /*Sets size and padding*/
     width: 90%;
-    height: 20%;
+    height: 30%;
     padding: 0.5rem;
 
     /* Makes text scrollable */
@@ -159,7 +159,7 @@ button:hover {
     /*Positions it in the container*/
     position: absolute;
     margin-bottom: 0.5rem;
-    bottom: 26.5%;
+    bottom: 40.5%;
     left: 3%;
     box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.3);
 }
